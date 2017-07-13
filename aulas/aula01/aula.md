@@ -5,7 +5,17 @@
 
 Nesse módulo vamos criar **aplicações web progressivas** com VueJS. As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos.
 
-Por definição elas precisam ser **confiáveis**, oferecendo um carregamento rápido mesmo em condições de rede desfavoráveis, **rápidas**, respondendo automaticamente às interações do usuário, e **engajadoras**, oferecendo uma experiência de usuário imersiva fazendo com que as pessoas se sintam em um aplicativo do dispositivo.
+Por definição elas precisam ser **confiáveis**, **rápidas**, **engajadoras**. São caractertíscas de uma PWA: 
+
+- **Progressiva** - Funciona para qualquer usuário, em qualquer navegador, é criada com aprimoramento progressivo
+- **Responsiva** - Se adequa a diferentes dispositivos
+- **Independente de conectividade** - Funciona offline
+- **Atual** - Sempre atualizada graças ao processo de atualização do service worker
+- **Segura** - Fornecido via HTTPS para evitar invasões
+- **Descobrível** - Pode ser identificado como aplicativo graças aos manifestos W3C e ao service worker, que permitem que os mecanismos de pesquisa encontrem
+- **Reenvolvente** - Facilita o reengajamento com recursos como notificações
+- **Instalável** - Permite que os usuários guardem os aplicativos mais úteis em suas telas iniciais sem precisar fazer instalação
+- **Linkável** - Compartilhada facilmente por URL
 
 ## Javascript
 

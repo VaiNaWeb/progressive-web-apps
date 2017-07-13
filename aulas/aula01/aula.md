@@ -3,6 +3,12 @@
 > "Eu não gosto de estudar, eu odeio estudar. Eu gosto de aprender, aprender é lindo."
 > — Natalie Portman
 
+Nesse módulo vamos criar **aplicações web progressivas** com VueJS.
+
+As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos. Por definição elas precisam ser: **confiáveis**, oferecendo um carregamento rápido mesmo em condições de rede desfavoráveis, **rápidas**, respondendo automaticamente às interações do usuário, e **engajadoras**, oferecendo uma experiência de usuário imersiva fazendo com que ele se sinta em um aplicativo do dispositivo.
+
+## Javascript
+
 Vamos começar a desbravar o fantástico mundo do **Javascript**, a linguagem de programação mais popular do mundo, muito poderosa e que está em todos os lugares. Podemos encontra-la em robôs, aplicações web, mobile, e em tantas outras coisas, inclusive em seu navegador.
 
 Faça o teste!

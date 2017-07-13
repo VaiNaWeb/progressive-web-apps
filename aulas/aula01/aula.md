@@ -5,7 +5,7 @@
 
 Nesse módulo vamos criar **aplicações web progressivas** com VueJS.
 
-As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos. Por definição elas precisam ser: **confiáveis**, oferecendo um carregamento rápido mesmo em condições de rede desfavoráveis, **rápidas**, respondendo automaticamente às interações do usuário, e **engajadoras**, oferecendo uma experiência de usuário imersiva fazendo com que ele se sinta em um aplicativo do dispositivo.
+As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos. Por definição elas precisam ser: **confiáveis**, oferecendo um carregamento rápido mesmo em condições de rede desfavoráveis, **rápidas**, respondendo automaticamente às interações do usuário, e **engajadoras**, oferecendo uma experiência de usuário imersiva fazendo com que as pessoas se sintam em um aplicativo do dispositivo.
 
 ## Javascript
 

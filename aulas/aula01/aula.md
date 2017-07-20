@@ -31,7 +31,7 @@ O `alert();` é uma função em Javascript, não se preocupe em conhecer o conce
 
 ## VueJS
 
-É uma biblioteca em Javascript para construção de **interfaces** com o usuário.
+Criada e mantida pela comunidade Open Source. É uma biblioteca em Javascript para construção de **interfaces** com o usuário.
 
 > Uma interface com o usuário é um espaço em que interações entre humanos e máquinas acontecem.
 > Wikipedia

@@ -12,7 +12,14 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS. As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos. As aulas do módulo Progressive Web Apps são mais um passo em nossa incrível jornada na criação de páginas e aplicações para web. :rocket:
 
-### Aula 01 - [Hello World](aulas/aula01/aula.md)
+### Aula 01 - [Introdução](aulas/aula01/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:**  <br>
+**Ferramentas e materiais de apoio:** Livro de apoio: <br>
+**Duração:** 3 horas.
+
+### Aula 02 - [Olá Vue](aulas/aula02/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:**  <br>

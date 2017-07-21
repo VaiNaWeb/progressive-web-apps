@@ -39,7 +39,7 @@ export default {
 </style>
 ```
 
-![More transitions](assets/01.png)
+![olavue](assets/01.png)
 
 
 ## Criando listas

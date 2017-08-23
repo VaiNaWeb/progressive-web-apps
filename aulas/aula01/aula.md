@@ -3,7 +3,11 @@
 > "Eu não gosto de estudar, eu odeio estudar. Eu gosto de aprender, aprender é lindo."
 > — Natalie Portman
 
-Nesse módulo vamos criar **aplicações web progressivas** com VueJS. As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos.
+Nesse módulo vamos criar **aplicações web progressivas**, vamos chama-las de PWA, com VueJS. As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos.
+
+Uma aplicação progressiva, como o próprio nome sugere está mesmo sempre em progresso. Isso quer dizer que ela está sempre ganhando mais recursos e se tornando mais poderosa, assim como a própria web sempre foi.
+
+Comparando como eram feitas as coisas na web logo quando ela foi criada percebemos o quanto ela foi mudando ao longo dos anos, o quanto ela melhorou e continua melhorando de **forma progressiva**. Vale notar também que enquanto ela foi ganhando novos poderes os antigos não pararam de funcionar, esse é um detalhe importante e que tem tudo a ver também com PWA.
 
 Por definição elas precisam ser **confiáveis**, **rápidas**, **engajadoras**. São caractertíscas de uma PWA: 
 

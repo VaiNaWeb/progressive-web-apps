@@ -1,10 +1,10 @@
 # Olá Vue
 
-Vamos criar nossos primeiros componentes usando o Vue.js.
+Como aprendemos anteriormente, uma interface pode e deve ser divida em vários componentes. Vamos começar a criar nossos primeiros componentes usando o Vue.js.
 
 ## Tudo numa coisa só
 
-O Vue trabalha com o conceito de Single file components, o HTML, CSS e JS ficam separados mas em um único arquivo.
+O Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos isso de **Single file components**, o componente inteiro em um arquivo.
 
 ```vue
 <template>

@@ -19,7 +19,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS. Aplicaç�
 **Ferramentas e materiais de apoio:** Livro de apoio, [Slides](http://slides.com/vainaweb/pwa-01) <br>
 **Duração:** 3 horas.
 
-### Aula 02 - [Olá Vue](aulas/aula02/aula.md)
+### Aula 02 - [Começando com VUE](aulas/aula02/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:**  <br>

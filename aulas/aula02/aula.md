@@ -1,4 +1,7 @@
-# Olá Vue
+# Começando com VUE
+
+> "Eu sempre fiz algo que eu estava um pouco preparado para fazer. Eu acho que é assim que você cresce. Quando há aquele momento de 'Wow, não tenho certeza de que posso fazer isso', e você passa por esses momentos, é quando você tem um avanço."
+> — Marissa Mayer
 
 Como aprendemos anteriormente, uma interface pode e deve ser divida em vários componentes. Vamos começar a criar nossos primeiros componentes usando o Vue.js.
 

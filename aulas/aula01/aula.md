@@ -45,5 +45,3 @@ As aplicações construídas com Vue possuem interfaces que "reagem" às intera�
 Há muitas bibliotecas criadas com a mesma função do Vue, mas ele se destaca pela sua simplicidade.
 
 Podemos dividir uma interface em vários **componentes**, sempre que um componente fica muito complexo devemos começar a pensar em quebra-lo em novos componentes.
-
-O Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos isso de **Single file components**, o componente inteiro em um arquivo.

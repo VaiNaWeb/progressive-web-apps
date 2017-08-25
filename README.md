@@ -14,14 +14,14 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS. Aplicaç�
 
 ### Aula 01 - [Introdução](aulas/aula01/aula.md)
 
-**Objetivos:** <br> Entender os conceitos que definem uma PWA.
-**Formato de apresentação:**  <br>
-**Ferramentas e materiais de apoio:** Livro de apoio, [Slides](http://slides.com/vainaweb/pwa-01) <br>
+**Objetivos:** Entender os conceitos que definem uma PWA.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações. <br>
+**Ferramentas e materiais de apoio:** Livro de apoio, [slides](http://slides.com/vainaweb/pwa-01), [resumo](aulas/aula01/resumo.md) <br>
 **Duração:** 3 horas.
 
 ### Aula 02 - [Começando com VUE](aulas/aula02/aula.md)
 
-**Objetivos:** <br> Conhecer o VueJS e entender os primeiros comandos
-**Formato de apresentação:**  <br>
-**Ferramentas e materiais de apoio:** Livro de apoio: <br>
+**Objetivos:** Conhecer o VueJS e entender os primeiros comandos<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** Livro de apoio<br>
 **Duração:** 3 horas.

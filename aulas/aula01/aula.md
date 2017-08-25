@@ -15,7 +15,7 @@ Por definição elas precisam ser **confiáveis**, **rápidas**, **engajadoras**
 - **Responsiva** - Se adequa a diferentes dispositivos
 - **Independente de conectividade** - Funciona offline
 - **Atual** - Sempre atualizada graças ao processo de atualização do service worker
-- **Segura** - Fornecido via HTTPS para evitar invasões
+- **Segura** - Fornecida via HTTPS para evitar invasões
 - **Descobrível** - Permite que os mecanismos de pesquisa encontre
 - **Re-envolvente** - Facilita o reengajamento com recursos como notificações
 - **Instalável** - Permite que os usuários guardem os aplicativos mais úteis em suas telas iniciais sem precisar fazer instalação

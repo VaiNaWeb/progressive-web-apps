@@ -42,4 +42,4 @@ As aplicações construídas com Vue possuem interfaces que "reagem" às intera�
 
 Há muitas bibliotecas criadas com a mesma função do Vue, mas ele se destaca pela sua simplicidade.
 
-Uma interface é divida em **componentes**, e esses componentes se comunicam entre eles. Podemos dividir uma interface em vários componentes, que podem se comunicar entre sí. Sempre que um componente fica muito complexo devemos começar a pensar em quebra-lo em novos componentes.
+Uma interface é divida em **componentes**, e esses componentes se comunicam entre eles. Podemos dividir uma interface em vários componentes, sempre que um componente fica muito complexo devemos começar a pensar em quebra-lo em novos componentes.

@@ -16,7 +16,7 @@ Por definição elas precisam ser **confiáveis**, **rápidas**, **engajadoras**
 - **Independente de conectividade** - Funciona offline
 - **Atual** - Sempre atualizada graças ao processo de atualização do service worker
 - **Segura** - Fornecida via HTTPS para evitar invasões
-- **Descobrível** - Permite que os mecanismos de pesquisa encontre
+- **Descobrível** - Permite ser encontrada por mecanismos de buscas
 - **Re-envolvente** - Facilita o reengajamento com recursos como notificações
 - **Instalável** - Permite que os usuários guardem os aplicativos mais úteis em suas telas iniciais sem precisar fazer instalação
 - **Linkável** - Compartilhada facilmente por URL

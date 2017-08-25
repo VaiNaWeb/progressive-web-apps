@@ -38,8 +38,8 @@ Criada e mantida pela comunidade Open Source. É uma biblioteca em Javascript pa
 > Uma interface com o usuário é um espaço em que interações entre humanos e máquinas acontecem.
 > Wikipedia
 
-As aplicações construídas com Vue possuem interfaces que "reagem" às interações com o usuário, isso quer dizer que se o usuário insere um dado de entrada em um componente por exemplo, esse componente pode mostrar em tempo real uma reação a essa entrada.
+Uma interface é divida em **componentes**, e esses componentes se comunicam entre eles. Podemos dividir uma interface em vários componentes, sempre que um componente fica muito complexo devemos começar a pensar em quebra-lo em novos componentes.
+
+Aplicações construídas com Vue possuem interfaces que "reagem" às interações com o usuário, isso quer dizer que se o usuário insere um dado de entrada em um componente por exemplo, esse componente pode mostrar em tempo real uma reação a essa entrada.
 
 Há muitas bibliotecas criadas com a mesma função do Vue, mas ele se destaca pela sua simplicidade.
-
-Uma interface é divida em **componentes**, e esses componentes se comunicam entre eles. Podemos dividir uma interface em vários componentes, sempre que um componente fica muito complexo devemos começar a pensar em quebra-lo em novos componentes.

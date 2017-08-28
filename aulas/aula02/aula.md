@@ -39,6 +39,6 @@ p {
 </style>
 ```
 
-![olavue](assets/02.png)
+![olavue](assets/01.png)
 
 ## Criando listas

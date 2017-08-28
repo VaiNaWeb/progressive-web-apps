@@ -5,13 +5,42 @@
 
 Como aprendemos anteriormente, uma interface pode e deve ser divida em vários componentes. Vamos começar a criar nossos primeiros componentes usando o Vue.js.
 
+## Criando um projeto
+
+O Vue-Cli nos dá alguns templates para criar a estruta inicial de nossos projetos, enquanto estamos conhecendo o Vue, vamos usar o template **webpack**, que possui o Webpack configurado, vue-router já estruturado e mais algumas coisas que vão facilitar a nossa vida.
+
+Com tudo instalado corretamente, use o comando para iniciar o projeto:
+
+```
+vue init webpack MeuProjeto
+```
+
+Depois, entre na pasta
+
+```
+cd MeuProjeto
+```
+
+Instale as dependências de seu projeto
+
+```
+npm install
+```
+
+Agora já podemos iniciar o projeto
+
+```
+npm run dev
+```
+
+
 ## Tudo numa coisa só
 
 O Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos isso de **Single file components**, o componente inteiro em um arquivo.
 
 Um componente em Vue se divide em três tags: template, script, e style. Dentro da tag template é onde colocamos o HTML normal que já conhecemos, divs, headers, parágrafos, etc. Dentro de script colocamos o javascript. E por fim, em style colocamos o nosso CSS.
 
-Nosso primeiro componente se chama OlaMundo.
+Nosso primeiro componente se chama OlaMundo. O Vue nos permite usar um atributo em style chamado scoped, se usarmos, os estilos declarados no componente estilizam somente esse componente, o que pode ser bem útil em grandes aplicações.
 
 ```vue
 <template>
@@ -40,4 +69,3 @@ p {
 ```
 
 ![olavue](assets/01.png)
-

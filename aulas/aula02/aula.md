@@ -11,40 +11,34 @@ O Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos iss
 
 Um componente em Vue se divide em três tags: template, script, e style. Dentro da tag template é onde colocamos o HTML normal que já conhecemos, divs, headers, parágrafos, etc. Dentro de script colocamos o javascript. E por fim, em style colocamos o nosso CSS.
 
+Nosso primeiro componente se chama Cadastro.
+
 ```vue
 <template>
-  <div id="olaMundo">
-    <img src="./assets/logo.png">
-    <h1>{{ texto }}</h1>
+  <div>
+    <p>Olá Mundo</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'olaMundo',
-  data () {
-    return {
-      texto: 'Olá mundo'
-    }
-  }
+  name: 'OlaMundo'
 }
 </script>
 
-<style>
-  #olaMundo {
-    padding: 5em;
-  }
-  img {
-    max-width: 20%;
-  }
-  h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    color: #2c3e50;
-  }
+<style scoped>
+div {
+  margin-top: 0.5em;
+  padding: 0.25em;
+}
+p {
+  margin: 0;
+  padding: 0.25em 0;
+  font-size: 1.25em;
+}
 </style>
 ```
 
-![olavue](assets/01.png)
-
+![olavue](assets/02.png)
 
 ## Criando listas

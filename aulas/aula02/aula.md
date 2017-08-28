@@ -11,7 +11,7 @@ O Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos iss
 
 Um componente em Vue se divide em três tags: template, script, e style. Dentro da tag template é onde colocamos o HTML normal que já conhecemos, divs, headers, parágrafos, etc. Dentro de script colocamos o javascript. E por fim, em style colocamos o nosso CSS.
 
-Nosso primeiro componente se chama Cadastro.
+Nosso primeiro componente se chama OlaMundo.
 
 ```vue
 <template>
@@ -41,4 +41,3 @@ p {
 
 ![olavue](assets/01.png)
 
-## Criando listas

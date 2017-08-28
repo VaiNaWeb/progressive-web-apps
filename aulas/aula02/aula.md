@@ -53,7 +53,7 @@ Podemos usar um atributo em style chamado scoped, se usarmos, os estilos declara
 
 <script>
 export default {
-  name: 'OlaMundo'
+  name: 'hello'
 }
 </script>
 

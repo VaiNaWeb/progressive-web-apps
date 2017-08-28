@@ -11,25 +11,25 @@ O Vue-cli nos dá alguns templates para criar a estruta inicial de nossos projet
 
 Com tudo instalado corretamente, use o comando para iniciar o projeto:
 
-```
+```bash
 vue init webpack MeuProjeto
 ```
 
 Depois, entre na pasta
 
-```
+```bash
 cd MeuProjeto
 ```
 
 Sempre que iniciamos um novo projeto em nossa máquina, precisamos instalar as dependências dele. Instale as dependências de seu projeto
 
-```
+```bash
 npm install
 ```
 
 Agora já podemos iniciar o projeto
 
-```
+```bash
 npm run dev
 ```
 

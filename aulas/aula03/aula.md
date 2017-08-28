@@ -4,7 +4,7 @@ Já entendemos o que são componentes, agora vamos aprender a criar os nossos pr
 
 Vamos criar um novo componente chamado Ola.vue com o seguinte conteúdo:
 
-```
+```vue
 <template>
   <div>
     <p>Olá Mundo</p>
@@ -39,7 +39,7 @@ Na estrutura que criamos já existe um arquivo com o vue-router estruturado, vam
 
 Agora precisamos criar uma rota para esse componente no vue-router. Nas primeiras linhas estamos importando o Vue, o Router, e o componnte Hello. Vamos adicionar mais uma linha para importar o nosso Ola.
 
-```
+```vue
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
@@ -48,7 +48,7 @@ import Ola from '@/components/Ola'
 
 O vue já criou a nossa primeira rota, a path '/', o nosso componente que é exibido como primeira página. Vamos criar uma segunda com '/Ola'
 
-```
+```vue
   routes: [
     {
       path: '/',
@@ -66,7 +66,7 @@ O vue já criou a nossa primeira rota, a path '/', o nosso componente que é exi
 Agora temos uma nova página para nosso componente Ola. Podemos criar mais um componente dentro de nosso componente.
 
 Vamos criar um novo arquivo chamado Gato.vue com o seguinte conteúdo:
-```
+```vue
 <template>
   <div>
   	<img src="http://i.imgur.com/qYkIohz.jpg">
@@ -87,7 +87,7 @@ img {
 ```
 Agora vamos chamar nosso componente Gato dentro do componente Ola. Dentro do template usamos como tag o nome do nosso componente!
 
-```
+```vue
 <template>
   <div>
     <gato></gato>
@@ -98,7 +98,7 @@ Agora vamos chamar nosso componente Gato dentro do componente Ola. Dentro do tem
 
 Dentro do script importamos o componente assim:
 
-```
+```vue
 <script>
 import gato from './Gato.vue'
 

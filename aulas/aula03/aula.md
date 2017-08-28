@@ -63,6 +63,9 @@ O vue já criou a nossa primeira rota, a path '/', o nosso componente que é exi
   ]
 ```
 
+![olavue](assets/01.png)
+
+
 Agora temos uma nova página para nosso componente Ola. Podemos criar mais um componente dentro de nosso componente.
 
 Vamos criar um novo arquivo chamado Gato.vue com o seguinte conteúdo:

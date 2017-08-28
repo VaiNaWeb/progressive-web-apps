@@ -7,7 +7,7 @@ Como aprendemos anteriormente, uma interface pode e deve ser divida em vários c
 
 ## Criando um projeto
 
-O Vue-Cli nos dá alguns templates para criar a estruta inicial de nossos projetos, enquanto estamos conhecendo o Vue, vamos usar o template **webpack**, que possui o Webpack configurado, vue-router já estruturado e mais algumas coisas que vão facilitar a nossa vida.
+O Vue-cli nos dá alguns templates para criar a estruta inicial de nossos projetos, enquanto estamos conhecendo o Vue, vamos usar o **webpack**, que possui o Webpack configurado, **vue-router** já estruturado e mais algumas coisas que vão facilitar a nossa vida.
 
 Com tudo instalado corretamente, use o comando para iniciar o projeto:
 
@@ -21,7 +21,7 @@ Depois, entre na pasta
 cd MeuProjeto
 ```
 
-Instale as dependências de seu projeto
+Sempre que iniciamos um novo projeto em nossa máquina, precisamos instalar as dependências dele. Instale as dependências de seu projeto
 
 ```
 npm install
@@ -36,11 +36,13 @@ npm run dev
 
 ## Tudo numa coisa só
 
-O Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos isso de **Single file components**, o componente inteiro em um arquivo.
+O Vue já criou várias pastas e arquivos para gente, nossos componentes ficam dentro de src/components. Ele criou também um componente chamado Hello.vue, podemos apagar ou editar esse componente, depois criar novos.
+
+Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos isso de **Single file components**, o componente inteiro em um arquivo.
 
 Um componente em Vue se divide em três tags: template, script, e style. Dentro da tag template é onde colocamos o HTML normal que já conhecemos, divs, headers, parágrafos, etc. Dentro de script colocamos o javascript. E por fim, em style colocamos o nosso CSS.
 
-Nosso primeiro componente se chama OlaMundo. O Vue nos permite usar um atributo em style chamado scoped, se usarmos, os estilos declarados no componente estilizam somente esse componente, o que pode ser bem útil em grandes aplicações.
+Podemos usar um atributo em style chamado scoped, se usarmos, os estilos declarados no componente estilizam somente esse componente, o que pode ser bem útil em grandes aplicações.
 
 ```vue
 <template>

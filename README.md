@@ -21,7 +21,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 
 ### Aula 02 - [Começando com VUE](aulas/aula02/aula.md)
 
-**Objetivos:** Conhecer o VueJS e entender os primeiros comandos<br>
+**Objetivos:** Conhecer o VueJS e entender os primeiros comandos.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
@@ -31,4 +31,32 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 **Objetivos:** Criação de novos componentes e compreensão do vue-router.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-03), [resumo](aulas/aula03/resumo.md).<br>
+**Duração:** 3 horas.
+
+### Aula 04 - [Criando reações](aulas/aula04/aula.md)
+
+**Objetivos:** Entender o data-binding e mais algumas coisas.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-04), [resumo](aulas/aula04/resumo.md).<br>
+**Duração:** 3 horas.
+
+### Aula 05 - [](aulas/aula05/aula.md)
+
+**Objetivos:**<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-05), [resumo](aulas/aula05/resumo.md).<br>
+**Duração:** 3 horas.
+
+## Aula 06 - [](aulas/aula06/aula.md)
+
+**Objetivos:**<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-06), [resumo](aulas/aula06/resumo.md).<br>
+**Duração:** 3 horas.
+
+## Aula 07 - [](aulas/aula06/aula.md)
+
+**Objetivos:**<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-07), [resumo](aulas/aula07/resumo.md).<br>
 **Duração:** 3 horas.

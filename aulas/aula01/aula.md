@@ -43,3 +43,33 @@ Uma interface é divida em **componentes**, e esses componentes se comunicam ent
 Aplicações construídas com Vue possuem interfaces que "reagem" às interações com o usuário, isso quer dizer que se o usuário insere um dado de entrada em um componente por exemplo, esse componente pode mostrar em tempo real uma reação a essa entrada.
 
 Há muitas bibliotecas criadas com a mesma função do Vue, mas ele se destaca pela sua simplicidade.
+
+## Criando um projeto
+
+Vamos usar o Vue-cli, ele nos dá alguns templates para criar a estruta inicial de nossos projetos, enquanto estamos conhecendo o Vue, vamos usar o **webpack**, que possui o Webpack configurado, **vue-router** já estruturado e mais algumas coisas que vão facilitar a nossa vida.
+
+Com tudo instalado corretamente, use o comando para iniciar o projeto:
+
+```bash
+vue init webpack MeuProjeto
+```
+
+Depois, entre na pasta
+
+```bash
+cd MeuProjeto
+```
+
+Sempre que iniciamos um novo projeto em nossa máquina, precisamos instalar as dependências dele. Instale as dependências de seu projeto
+
+```bash
+npm install
+```
+
+Agora já podemos iniciar o projeto
+
+```bash
+npm run dev
+```
+
+O Vue já criou várias pastas e arquivos para gente, nossos componentes ficam dentro de src/components. Ele criou também um componente chamado Hello.vue, podemos apagar ou editar esse componente, depois criar novos.

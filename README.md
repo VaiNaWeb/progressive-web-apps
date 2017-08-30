@@ -21,7 +21,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 
 ### Aula 02 - [Começando com VUE](aulas/aula02/aula.md)
 
-**Objetivos:** Conhecer os primeiros comandos do VueJS, entender o data-binding e mais algumas coisas.<br>
+**Objetivos:** Conhecer os primeiros comandos do VueJS, entender o two-way data-binding e mais algumas coisas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
@@ -33,7 +33,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-03), [resumo](aulas/aula03/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 04 - [](aulas/aula04/aula.md)
+### Aula 04 - [Criando reações](aulas/aula04/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>

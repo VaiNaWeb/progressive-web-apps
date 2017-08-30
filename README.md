@@ -33,7 +33,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-03), [resumo](aulas/aula03/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 04 - [Criando reações](aulas/aula04/aula.md)
+### Aula 04 - [Criando novas reações](aulas/aula04/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>

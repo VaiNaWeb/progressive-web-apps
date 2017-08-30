@@ -37,18 +37,19 @@ p {
 
 Na estrutura que criamos já existe um arquivo com o vue-router estruturado, vamos agora modifica-lo, ele está dentro da pasta src/router, em um arquivo index.js.
 
-Agora precisamos criar uma rota para esse componente no vue-router. Nas primeiras linhas estamos importando o Vue, o Router, e o componnte Hello. Vamos adicionar mais uma linha para importar o nosso Ola.
+Agora precisamos criar uma rota para esse componente no vue-router. Nas primeiras linhas estamos importando o Vue, o Router, e o componnte Hello. Vamos adicionar mais uma linha para importar o nosso Ola. 
+
+Feito isso, precisamos também de configurar a rota, o vue já criou a nossa primeira rota, a path '/', o nosso componente que é exibido como primeira página. Vamos criar uma segunda com '/Ola'
 
 ```vue
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Ola from '@/components/Ola'
-```
 
-O vue já criou a nossa primeira rota, a path '/', o nosso componente que é exibido como primeira página. Vamos criar uma segunda com '/Ola'
+Vue.use(Router)
 
-```vue
+export default new Router({
   routes: [
     {
       path: '/',
@@ -61,10 +62,10 @@ O vue já criou a nossa primeira rota, a path '/', o nosso componente que é exi
       component: Ola
     }
   ]
+})
 ```
 
 ![olavue](assets/02.png)
-
 
 Agora temos uma nova página para nosso componente Ola. Podemos criar mais um componente dentro de nosso componente.
 

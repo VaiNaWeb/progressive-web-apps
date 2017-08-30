@@ -73,3 +73,5 @@ npm run dev
 ```
 
 O Vue já criou várias pastas e arquivos para gente, nossos componentes ficam dentro de src/components. Ele criou também um componente chamado Hello.vue, podemos apagar ou editar esse componente, depois criar novos.
+
+Vá em frente! Encontre a frase Welcome to Your Vue.js App na linha 28 e escreva seu próprio Olá mundo. 

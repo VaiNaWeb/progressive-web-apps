@@ -41,7 +41,7 @@ Agora precisamos criar uma rota para esse componente no vue-router. Nas primeira
 
 Feito isso, precisamos também de configurar a rota, o vue já criou a nossa primeira rota, a path '/', o nosso componente que é exibido como primeira página. Vamos criar uma segunda com '/Ola'
 
-```vue
+```js
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'

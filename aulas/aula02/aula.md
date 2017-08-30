@@ -11,6 +11,17 @@ Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos isso 
 
 Um componente em Vue se divide em três tags: template, script, e style. Dentro da tag template é onde colocamos o HTML normal que já conhecemos, divs, headers, parágrafos, etc. Dentro de script colocamos o javascript. E por fim, em style colocamos o nosso CSS.
 
+```vue
+<template>
+</template>
+
+<script>
+</script>
+
+<style>
+</style>
+```
+
 Podemos usar um atributo em style chamado scoped, se usarmos, os estilos declarados no componente estilizam somente esse componente, o que pode ser bem útil em grandes aplicações.
 
 ```vue

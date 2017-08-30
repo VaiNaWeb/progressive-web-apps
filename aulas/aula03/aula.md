@@ -1,8 +1,6 @@
 # Criando novas páginas e componentes
 
-Já entendemos o que são componentes, agora vamos aprender a criar os nossos próprios componentes e páginas através do vue-router.
-
-Vamos criar um novo componente chamado Ola.vue com o seguinte conteúdo:
+Já entendemos o que são componentes, agora vamos aprender a criar os nossos próprios componentes e páginas através do vue-router. Vamos criar um novo componente chamado Ola.vue com o seguinte conteúdo:
 
 ```vue
 <template>

@@ -5,38 +5,7 @@
 
 Como aprendemos anteriormente, uma interface pode e deve ser divida em vários componentes. Vamos começar a criar nossos primeiros componentes usando o Vue.js.
 
-## Criando um projeto
-
-O Vue-cli nos dá alguns templates para criar a estruta inicial de nossos projetos, enquanto estamos conhecendo o Vue, vamos usar o **webpack**, que possui o Webpack configurado, **vue-router** já estruturado e mais algumas coisas que vão facilitar a nossa vida.
-
-Com tudo instalado corretamente, use o comando para iniciar o projeto:
-
-```bash
-vue init webpack MeuProjeto
-```
-
-Depois, entre na pasta
-
-```bash
-cd MeuProjeto
-```
-
-Sempre que iniciamos um novo projeto em nossa máquina, precisamos instalar as dependências dele. Instale as dependências de seu projeto
-
-```bash
-npm install
-```
-
-Agora já podemos iniciar o projeto
-
-```bash
-npm run dev
-```
-
-
 ## Tudo numa coisa só
-
-O Vue já criou várias pastas e arquivos para gente, nossos componentes ficam dentro de src/components. Ele criou também um componente chamado Hello.vue, podemos apagar ou editar esse componente, depois criar novos.
 
 Vue trabalha na estrutura de HTML, CSS e JS em um único arquivo, chamamos isso de **Single file components**, o componente inteiro em um arquivo.
 

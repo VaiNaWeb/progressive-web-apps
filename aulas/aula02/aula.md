@@ -102,4 +102,4 @@ export default {
 <style scoped>
 </style>
 ```
-![olavue](assets/02.png)
+![olavue](assets/03.png)

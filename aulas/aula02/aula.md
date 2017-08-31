@@ -1,5 +1,8 @@
 # Começando com VUE
 
+> "Eu sempre fiz algo que eu estava pouco preparada para fazer. Eu acho que é assim que você cresce. Quando há aquele momento de 'Wow, não tenho certeza de que posso fazer isso', e você passa por esses momentos, é quando você tem um avanço."
+> — Marissa Mayer
+
 Como aprendemos anteriormente, uma interface pode e deve ser divida em vários componentes. Vamos começar a criar nossos primeiros componentes usando o Vue.js.
 
 ## Tudo numa coisa só
@@ -50,13 +53,11 @@ p {
 
 ## Ligando dados
   
-Dentro do template podemos usar a sintaxe mustache, {{ duas chaves }}, e colocar expressões em Javascript. Nossa primeira reação é bem simples, mas antes de tudo vamos passar por mais um conceito legal que o Vue usa, o two-way **data binding**, ou ligação de dados por dois caminhos.
-
-Nossos dados estão ligados. O que acontece dentro de template reflete também no script, e vice-versa. Criamos um mustache com uma varíável chamada mensagem e atribuímos a ela uma frase.
+Dentro do template podemos usar a sintaxe mustache, {{ duas chaves }}, e colocar expressões em Javascript. Criamos um mustache com uma varíável chamada mensagem e atribuímos a ela uma frase. 
 
 ```vue
 <template>
-  <div class="ola">
+  <div>
     <h1>{{ mensagem }}</h1>
   </div>
 </template>
@@ -75,8 +76,30 @@ export default {
 <style scoped>
 </style>
 ```
+Nossos dados estão ligados. O que acontece dentro de template reflete também no script, e vice-versa.
 
-Você pode agora estar questionando a necessidade em criar uma frase em uma variável ao invés de simplesmente adiciona-la diretamente como um parágrafo no HTML. Bom, agora parece que essa seria realmente a melhor decisão, mas daqui a pouco vamos começar a fazer mais do que simplesmente exibir frases, e essa razão em começar a adicionar dados em variáveis vai ficar mais clara. Acreditem isso é será realmente muito útil.
+O vue tem algumas palavras reservadas chamadas de Diretivas que nos permitem adicionar alguns comportamentos. Uma dessas diretivas é a **v-model**, vamos usa-la para criar um two-way data binidng, ou ligação de dados por dois caminhos em um elemento.
+```vue
+<template>
+  <div>
+    <p>Quantos anos você tem?</p>
+    <input v-model="idade">
+    <p>você tem {{ idade }} anos de idade.</p>
+  </div>
+</template>
 
-> "Eu sempre fiz algo que eu estava pouco preparada para fazer. Eu acho que é assim que você cresce. Quando há aquele momento de 'Wow, não tenho certeza de que posso fazer isso', e você passa por esses momentos, é quando você tem um avanço."
-> — Marissa Mayer
+<script>
+export default {
+  name: 'ola',
+  data () {
+    return {
+      idade: ''
+    }
+  }
+}
+</script>
+
+<style scoped>
+</style>
+```
+

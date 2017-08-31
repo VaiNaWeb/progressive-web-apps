@@ -47,21 +47,21 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-05), [resumo](aulas/aula05/resumo.md).<br>
 **Duração:** 3 horas.
 
-## Aula 06 - [Comunicação entre componentes](aulas/aula06/aula.md)
+### Aula 06 - [Comunicação entre componentes](aulas/aula06/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-06), [resumo](aulas/aula06/resumo.md).<br>
 **Duração:** 3 horas.
 
-## Aula 07 - [Comunicação entre componentes com VUEX](aulas/aula07/aula.md)
+### Aula 07 - [Comunicação entre componentes com VUEX](aulas/aula07/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-07), [resumo](aulas/aula07/resumo.md).<br>
 **Duração:** 3 horas.
 
-## Aula 08 - [](aulas/aula08/aula.md)
+### Aula 08 - [](aulas/aula08/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>

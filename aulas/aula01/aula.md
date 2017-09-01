@@ -46,7 +46,7 @@ Há muitas bibliotecas criadas com a mesma função do Vue, mas ele se destaca p
 
 ## Criando um projeto
 
-Vamos usar o Vue-cli, ele nos dá alguns templates para criar a estruta inicial de nossos projetos, enquanto estamos conhecendo o Vue, vamos usar o **webpack**, que possui o Webpack configurado, **vue-router** já estruturado e mais algumas coisas que vão facilitar a nossa vida.
+Vamos usar o Vue-cli, ele nos dá alguns templates para criar a estruta inicial de nossos projetos, enquanto estamos conhecendo o Vue, vamos usar o [webpack](http://vuejs-templates.github.io/webpack/structure.html), que possui o **Webpack** configurado, **vue-router** já estruturado e mais algumas coisas que vão facilitar a nossa vida.
 
 Com tudo instalado corretamente, use o comando para iniciar o projeto:
 
@@ -65,7 +65,7 @@ Sempre que iniciamos um novo projeto em nossa máquina, precisamos instalar as d
 ```bash
 npm install
 ```
-O Vue-cli já criou várias pastas e arquivos para gente a partir do [template](http://vuejs-templates.github.io/webpack/structure.html) que usamos. Essa é a nossa estrutura de pastas que ele criou:
+O Vue-cli já criou várias pastas e arquivos para gente a partir do template que usamos. Essa é a nossa estrutura de pastas que ele criou:
 
 ```
 .
@@ -80,6 +80,8 @@ O Vue-cli já criou várias pastas e arquivos para gente a partir do [template](
 │   │   └── Hello.vue           # olá mundo
 │   └── assets/                 # assets do projeto (processados com webpack)
 │       └── ...
+│   └── router/                 
+│       └── index.js            # configuração das rotas usando router
 ├── static/                     # outros assets
 ├── .babelrc                    # configurações do babel
 ├── .postcssrc.js               # configurações do postcss

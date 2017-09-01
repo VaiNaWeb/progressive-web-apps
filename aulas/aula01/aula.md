@@ -1,7 +1,7 @@
 # Introdução
 
-> "Eu não gosto de estudar, eu odeio estudar. Eu gosto de aprender, aprender é lindo."
-> — Natalie Portman
+> “Em algum lugar, algo incrível está esperando para ser descoberto.” 
+> — Carl Sagan
 
 Nesse módulo vamos criar **aplicações web progressivas**, vamos chama-las de PWA, com VueJS. As aplicações web progressivas combinam o melhor da Web e o melhor dos aplicativos.
 

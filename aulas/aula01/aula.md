@@ -54,7 +54,7 @@ Com tudo instalado corretamente, use o comando para iniciar o projeto:
 vue init webpack MeuProjeto
 ```
 
-Depois, entre na pasta
+Ele vai te perguntar algumas coisas durante o processo de instalação, aperte enter para continuar quando ele te perguntar o nome do projeto, autor e descrição. Digite Y quando ele te perguntar sobre o Vue-Router, e depois N quando ele te perguntar sobre testes, não precisaremos disso agora. Por fim, entre na pasta criada
 
 ```bash
 cd MeuProjeto
@@ -65,13 +65,33 @@ Sempre que iniciamos um novo projeto em nossa máquina, precisamos instalar as d
 ```bash
 npm install
 ```
+O Vue-cli já criou várias pastas e arquivos para gente a partir do [template](http://vuejs-templates.github.io/webpack/structure.html) que usamos. Essa é a nossa estrutura de pastas que ele criou:
 
+```
+.
+├── build/                      # arquivos de configuração do webpack
+│   └── ...
+├── config/                     # configurações de compilação
+│   └── ...
+├── src/
+│   ├── main.js                 # raíz da aplicação
+│   ├── App.vue                 # componente raíz
+│   ├── components/             # outrios componentes da interface
+│   │   └── Hello.vue           # olá mundo
+│   └── assets/                 # assets do projeto (processados com webpack)
+│       └── ...
+├── static/                     # outros assets
+├── .babelrc                    # configurações do babel
+├── .postcssrc.js               # configurações do postcss
+├── .editorconfig               # configurações do editor
+├── index.html                  # index.html template
+└── package.json                # scripts, dependências, e outras descrições do projeto
+```
 Agora já podemos iniciar o projeto
 
 ```bash
 npm run dev
 ```
+Nossos componentes ficam dentro de src/components. Ele criou também um componente chamado Hello.vue, podemos apagar ou editar esse componente, depois criar novos. 
 
-O Vue já criou várias pastas e arquivos para gente, nossos componentes ficam dentro de src/components. Ele criou também um componente chamado Hello.vue, podemos apagar ou editar esse componente, depois criar novos.
-
-Vá em frente! Encontre a frase Welcome to Your Vue.js App na linha 28, apague essa frase e escreva seu próprio Olá mundo. 
+Vá em frente! Abra em seu editor de códigos o Hello.vue, encontre a frase Welcome to Your Vue.js App na linha 28, apague essa frase e escreva seu próprio Olá mundo.

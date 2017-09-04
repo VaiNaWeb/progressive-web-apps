@@ -82,22 +82,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-08), [resumo](aulas/aula08/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 11 - [Service Worker](aulas/aula08/aula.md)
-
-**Objetivos:**<br>
-**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-08), [resumo](aulas/aula08/resumo.md).<br>
-**Duração:** 3 horas.
-
-### Aula 12 - [Service Worker](aulas/aula08/aula.md)
-
-**Objetivos:**<br>
-**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-08), [resumo](aulas/aula08/resumo.md).<br>
-**Duração:** 3 horas.
-
-
-### Aula 13 - [Push notifications](aulas/aula08/aula.md)
+### Aula 11 - [Push notifications](aulas/aula08/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>

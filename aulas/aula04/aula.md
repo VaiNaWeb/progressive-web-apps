@@ -8,7 +8,7 @@ Queremos escutar o evento Click do mouse em um botão, então adicionamos dentro
 
 ```vue
 <template>
-  <div class="ola">
+  <div>
     <button v-on:click>{{frase}}</button>
   </div>
 </template>
@@ -30,7 +30,7 @@ Já adicionamos nossa diretiva, mas não tinhamos feito nada com ela ainda. Agor
 
 ```vue
 <template>
-  <div class="ola">
+  <div>
     <button v-on:click="frase = 'Olá mundo'">{{frase}}</button>
   </div>
 </template>
@@ -47,3 +47,62 @@ export default {
 </script>
 ```
 ![img02](assets/img02.gif)
+
+## Combinando eventos e métodos
+
+Precisamos nesse próximo exemplo capturar o evento de click e disparar um método quando ele for chamado. Como já aprendemos, vamos usar a diretiva v-on, e para escutar o click v-on:click
+
+```vue
+<template>
+  <div>
+    <p>Clique para fotografar</p>
+    <img src="https://github.com/VaiNaWeb/progressive-web-apps/blob/master/aulas/aula04/assets/camera.png?raw=true"
+         v-on:click>
+    <img :src="foto">
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Aula04',
+  data () {
+    return {
+      foto: ''
+    }
+  }
+}
+</script>
+```
+![img03](assets/img03.png)
+
+Temos duas imagens, a primeira é a câmera, onde adicionamos a nossa diretiva para capturar o click, e a segunda recebe uma variável foto que começa vazia. Quando o evento click for chamado, vamos chamar um método para adicionar uma imagem em nossa tag img adicionando o link de uma imagem dentro da variável vazia que criamos.
+
+Abaixo de data, adicionamos methods, é onde podemos incluir os nossos métodos. Podemos entender um método como uma ação. Criamos agora nosso método, e chamamos ele de tiraFoto()
+
+```vue
+<template>
+  <div>
+    <p>Clique para fotografar</p>
+    <img src="https://github.com/VaiNaWeb/progressive-web-apps/blob/master/aulas/aula04/assets/camera.png?raw=true"
+         v-on:click="tiraFoto()">
+    <img :src="foto">
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Aula04',
+  data () {
+    return {
+      foto: ''
+    }
+  },
+  methods: {
+    tiraFoto() {
+      return this.foto = 'https://github.com/VaiNaWeb/progressive-web-apps/blob/master/aulas/aula04/assets/img05.jpg?raw=true'
+    }
+  }
+}
+</script>
+```
+![img04](assets/img04.gif)

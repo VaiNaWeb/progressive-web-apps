@@ -42,7 +42,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 
 ### Aula 05 - [Condicionais e listas](aulas/aula05/aula.md)
 
-**Objetivos:**<br>
+**Objetivos:** Criação de estruturas condicionais e de repetição<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-05), [resumo](aulas/aula05/resumo.md).<br>
 **Duração:** 3 horas.

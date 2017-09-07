@@ -2,8 +2,8 @@
 
 Vamos aprender a usar o poder das estruturas condicionais em nossos componentes. Primeiramente, conheceremos as condicionais.
 
-![img01](assets/img02.gif)
-
+![img01](assets/img01.png)
+```vue
 <template>
   <div>
     <button>olá baby</button>
@@ -28,7 +28,9 @@ export default {
   }
 }
 </script>
+```
 
+```vue
 <template>
   <div>
     <button v-on:click="mae = !mae">olá baby</button>
@@ -53,6 +55,6 @@ export default {
   }
 }
 </script>
-
+```
 
 ![img04](assets/img02.gif)

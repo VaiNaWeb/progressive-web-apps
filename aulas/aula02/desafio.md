@@ -3,4 +3,4 @@
 1. Crie um componente para receber dados em um formulário
 2. Exiba esses dados como no exemplo abaixo:
 
-![asset](aula02/assets/04.png)
+![asset](assets/04.png)

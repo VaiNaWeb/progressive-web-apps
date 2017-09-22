@@ -67,40 +67,35 @@ if() {
 
 }
 ```
-If significa se, e else significa senão. Se colocarmos uma expressão dentro dos parenteses do primeiro if e essa expressão for verdadeira então podemos retornar o que está dentro das chaves dele, senão retornamos o que está dentro das chaves do else.
+If significa se, e else significa senão. Se colocarmos uma expressão dentro dos parenteses do primeiro if e essa expressão for verdadeira então podemos retornar o que está dentro das chaves dele, senão retornamos o que está dentro das chaves do else. Para continuar nosso exemplo, vamos colocar essa estrutura dentro de um método que chamaremos de mostraVencedor, assim: 
 
-```vue
-<script>
-	export default {
-		name: 'Duelo',
-		data() {
-			return {
-				timeAmarelo: 0,
-				TimeRoxo: 0,
-				vencedor: ''
+```js
+			mostraVencedor() {
+				if () {
+				
+				} else {
+				
+				}
 			}
-		},
-		methods: {
-			addtimeAmarelo() {
-				return this.timeAmarelo++					
-			},
-			removetimeAmarelo() {
-				return this.timeAmarelo--					
-			},
-			addTimeRoxo() {
-				return this.TimeRoxo++
-			},
-			removeTimeRoxo() {
-				return this.TimeRoxo--					
-			},
+```
+
+Ainda precisamos incluir a expressão que queremos dentro do if, para isso vamos usar também operadores relacionais. Em Javascript temos:
+
+**>** maior que<br>
+**<** menor que<br>
+**=>** maior ou igual que<br>
+**<=** menor ou igual que<br>
+**==** igual<br>
+**===** igual em valor e tipo de dado<br>
+**!=** diferente<br>
+
+Definimos que nossa se o Time Roxo fosse maior que o Time Amarelo então retornaríamos que o Time Roxo é o vencedor. Criamos lá no data() uma variável chamada vencedor para receber nosso retorno. Nosso método ficou assim:
+
+```js
 			mostraVencedor() {
 				if (this.TimeRoxo > this.timeAmarelo) {
 					return this.vencedor = 'Time Roxo venceu'
 				} else {
 					return this.vencedor = 'Time Amarelo venceu'
-				}
-			}
-		}
-	}
-</script>
 ```
+Se essse valor que está na varíável TimeRoxo for maior que essa variável TimeAmarelo então retornamos essa variável vencedor com o conteúdo Time Roxo venceu. Senão, retornamos essa varíável vencedor com o conteúdo Time Amarelo venceu.

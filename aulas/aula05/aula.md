@@ -98,4 +98,64 @@ Definimos que nossa se o Time Roxo fosse maior que o Time Amarelo então retorna
 				} else {
 					return this.vencedor = 'Time Amarelo venceu'
 ```
-Se essse valor que está na varíável TimeRoxo for maior que essa variável TimeAmarelo então retornamos essa variável vencedor com o conteúdo Time Roxo venceu. Senão, retornamos essa varíável vencedor com o conteúdo Time Amarelo venceu.
+Se essse valor que está na varíável TimeRoxo for maior que essa variável TimeAmarelo então retornamos essa variável vencedor com o conteúdo Time Roxo venceu. Senão, retornamos essa varíável vencedor com o conteúdo Time Amarelo venceu. Nosso componente final ficou assim: 
+
+```vue
+<template>
+	<section>
+		<div>
+			<h2>Time Amarelo</h2>
+			<p>{{ timeAmarelo }}</p>
+			<div>
+				<button v-on:click="addtimeAmarelo()">+</button>
+				<button v-on:click="removetimeAmarelo()">-</button>
+			</div>
+		</div>
+		<div>
+			<h2>Time Roxo</h2>
+			<p>{{ TimeRoxo }}</p>
+			<div>
+				<button v-on:click="addTimeRoxo()">+</button>
+				<button v-on:click="removeTimeRoxo()">-</button>
+			</div>
+		</div>
+		<button v-on:click="mostraVencedor()">Mostrar vencedor</button>
+		<p> {{ vencedor }} </p>
+	</section>
+</template>
+
+<script>
+	export default {
+		name: 'Duelo',
+		data() {
+			return {
+				timeAmarelo: 0,
+				TimeRoxo: 0,
+				vencedor: ''
+			}
+		},
+		methods: {
+			addtimeAmarelo() {
+				return this.timeAmarelo++					
+			},
+			removetimeAmarelo() {
+				return this.timeAmarelo--					
+			},
+			addTimeRoxo() {
+				return this.TimeRoxo++
+			},
+			removeTimeRoxo() {
+					return this.TimeRoxo--					
+			},
+			mostraVencedor() {
+				if (this.TimeRoxo > this.timeAmarelo) {
+					return this.vencedor = 'Time Roxo venceu'
+				} else {
+					return this.vencedor = 'Time Amarelo venceu'
+				}
+			}
+		}
+	}
+</script>
+```
+Esse código ainda pode ser melhorado! E se os times ficarem com os mesmos pontos? Ou ainda, e se for regra que os pontos fiquem sempre entre 0 e 10? Se você pensou em incluir mais condições em nosso métodos pensou certo, sinta-se livre para criar essas novas alterações!

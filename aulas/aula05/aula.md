@@ -1,8 +1,8 @@
-# Renderizando Condições e Listas
+# Renderizando Condições
 
 Vamos aprender a usar o poder das estruturas condicionais em nossos componentes. As estruturas condicionais estão presentes em nossa vida o tempo inteiro, é quando perguntamos 'se'. Por exemplo: 
 
-Se chover eu vou ficar em casa, senão eu vou para a rua.
+Se chover então eu vou ficar em casa, senão eu vou para a rua.
 
 ![img01](assets/img01.png)
 ```vue

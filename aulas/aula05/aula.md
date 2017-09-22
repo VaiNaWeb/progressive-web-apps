@@ -1,6 +1,6 @@
 # Renderizando Condições e Listas
 
-Vamos aprender a usar o poder das estruturas condicionais em nossos componentes.
+Vamos aprender a usar o poder das estruturas condicionais em nossos componentes. Criamos basicamente condições e damos a elas consequências.
 
 ![img01](assets/img01.png)
 ```vue

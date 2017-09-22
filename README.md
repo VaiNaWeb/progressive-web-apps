@@ -40,42 +40,49 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-04), [resumo](aulas/aula04/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 05 - [Renderizando Condições e Listas](aulas/aula05/aula.md)
+### Aula 05 - [Estruturas Condições](aulas/aula05/aula.md)
 
-**Objetivos:** Aprender a aproveitar o poder dsa estruturas condicionais e de repetição<br>
+**Objetivos:** Aprender a aproveitar o poder das estruturas condicionais<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-05), [resumo](aulas/aula05/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 06 - [Comunicação entre componentes](aulas/aula06/aula.md)
+### Aula 06 - [Estruturas de Repetição](aulas/aula06/aula.md)
+
+**Objetivos:** Aprender a aproveitar o poder das estruturas repetição<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-05), [resumo](aulas/aula05/resumo.md).<br>
+**Duração:** 3 horas.
+
+### Aula 07 - [Comunicação entre componentes](aulas/aula07/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-06), [resumo](aulas/aula06/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 07 - [Comunicação entre componentes com VUEX](aulas/aula07/aula.md)
+### Aula 08 - [Comunicação entre componentes com VUEX](aulas/aula08/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-07), [resumo](aulas/aula07/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 08 - [Consumindo uma API](aulas/aula08/aula.md)
+### Aula 09 - [Consumindo uma API](aulas/aula09/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-08), [resumo](aulas/aula08/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 09 - [Service Worker](aulas/aula08/aula.md)
+### Aula 10 - [Service Worker](aulas/aula10/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-08), [resumo](aulas/aula08/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 10 - [Push notifications](aulas/aula08/aula.md)
+### Aula 11 - [Push notifications](aulas/aula11/aula.md)
 
 **Objetivos:**<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>

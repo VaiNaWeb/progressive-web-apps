@@ -4,7 +4,7 @@ Vamos aprender a usar o poder das estruturas condicionais em nossos componentes.
 
 Se chover então eu vou ficar em casa, senão eu vou para a rua.
 
-![img02](assets/img01.png)
+![img02](assets/img02.png)
 
 ```vue
 <template>

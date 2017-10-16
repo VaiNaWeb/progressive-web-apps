@@ -42,7 +42,9 @@ O desenvolvimento que acontece no browser, ou frontend, foi ficando muito comple
 
 Uma interface pode ser divida em **componentes**, e esses componentes se comunicam entre eles. Podemos dividir uma interface em vários componentes.
 
-Um componente tem algumas características especiais, ele costuma ser dividido em unidades pequenas, um bom indicador que um componente precisa ser dividido em outros componentes é o tamanho ou complexidade de seu código por exemplo. Uma outra característica é que um componente também é altamente especializado, ou seja, um componente tem como responsabilidade fazer uma determinada coisa e faz essa coisa de forma bem feita. Eles também permitem composição, ou seja, diversos componentes criam funcionalidades que compõem uma aplicação.
+Um componente tem algumas características especiais, ele costuma ser dividido em unidades pequenas, um bom indicador que um componente precisa ser dividido em outros componentes é o tamanho ou complexidade de seu código por exemplo. Uma outra característica é que um componente também é altamente especializado, ou seja, um componente tem como responsabilidade fazer uma determinada coisa e faz essa coisa de forma bem feita.
+
+Componentes também devem permitir composição, ou seja, diversos componentes criam funcionalidades que compõem uma aplicação. Uma outra coisa legal também é que você consegue atingir um famoso conceito em programação que em inglês é chamado de DRY, ou don't repeat yourself, que em português quer dizer não repita a si mesmo, funciona como lego, eu tenho uma pecinha que eu posso reaproveitar em mais de um lugar em minha construção, assim eu eu não preciso cria-lo novamente, repetindo assim um processo que já foi feito antes.
 
 Interfaces web modernas construídas em VueJS têm componentes **reativos**, ou seja componentes que reagem às interações com o usuário, se o usuário insere um dado de entrada em um componente por exemplo, esse componente pode mostrar em tempo real uma reação a essa entrada.
 

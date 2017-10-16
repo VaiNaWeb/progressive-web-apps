@@ -38,7 +38,11 @@ Criada e mantida pela comunidade Open Source. É um framweork em Javascript para
 > Uma interface com o usuário é um espaço em que interações entre humanos e máquinas acontecem.
 > Wikipedia
 
-Uma interface pode ser divida em **componentes**, e esses componentes se comunicam entre eles. Podemos dividir uma interface em vários componentes, sempre que um componente fica muito complexo devemos começar a pensar em quebra-lo em novos componentes.
+O desenvolvimento que acontece no browser, ou frontend, foi ficando muito complexo com o passar dos anos e as pessoas começaram a pensar formas para tornar esse desevovlvimento melhor e mais simples. Uma dessas formas, é a **componentização**.
+
+Uma interface pode ser divida em **componentes**, e esses componentes se comunicam entre eles. Podemos dividir uma interface em vários componentes.
+
+Um componente tem algumas características especiais, ele costuma ser dividido em unidades pequenas, um bom indicador que um componente precisa ser dividido em outros componentes é o tamanho ou complexidade de seu código por exemplo. Uma outra característica é que um componente também é altamente especializado, ou seja, um componente tem como responsabilidade fazer uma determinada coisa e faz essa coisa de forma bem feita.
 
 Interfaces web modernas construídas em VueJS têm componentes **reativos**, ou seja componentes que reagem às interações com o usuário, se o usuário insere um dado de entrada em um componente por exemplo, esse componente pode mostrar em tempo real uma reação a essa entrada.
 

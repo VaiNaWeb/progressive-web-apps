@@ -8,6 +8,6 @@ Quando a web nasceu, ela era usada para interconectar documentos. Hoje temos uma
 
 Contudo, atualmente não trocamos mais apenas documentos, agora podemos criar não somente sites, mas também aplicações, e em nessas aplicações precisamos consumir ou ainda gerar dados e mais dados!
 
-A web que conhecemos evoliu muito, e nosso navegador ganhou maiores poderes.
-
 Muita coisa mudou, mas continuamos fazendo requisições. Nas requisições, especificamos o que chamamos de método HTTP ou verbo, temos vários verbos diferentes.
+
+A web que conhecemos evoliu muito, e nosso navegador ganhou maiores poderes.

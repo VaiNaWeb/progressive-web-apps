@@ -14,7 +14,12 @@ A web que conhecemos evoliu muito, e nosso navegador ganhou maiores poderes.
 
 Muita coisa mudou, mas continuamos fazendo requisições. Nas requisições, especificamos o que chamamos de método HTTP ou verbo, temos vários verbos diferentes. Os principais verbos HTTP são:
 
-- GET
-- POST
-- PUT 
-- DELETE
+- GET: Usamos para pegar algo
+- POST: Usamos para enviar algo
+- PUT: Usamos para editar algo
+- DELETE: Usamos para excluir algo
+
+## Axios
+
+> "There is a tool for every task, and a task for every tool."
+> – Tywin Lannister, A Storm of Swords

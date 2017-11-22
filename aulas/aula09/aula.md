@@ -21,5 +21,7 @@ Muita coisa mudou, mas continuamos fazendo requisições. Nas requisições, esp
 
 ## Axios
 
-> "There is a tool for every task, and a task for every tool."
+> "Existe uma ferramenta para cada tarefa, e uma tarefa para cada ferramenta."
 > – Tywin Lannister, A Storm of Swords
+
+Vamos usar o Axios como ferramenta, o axios é uma biblioteca que usaremos como um cliente HTTP, ele funciona no navegador ou no servidor. Em nosso caso, vamos instalar a biblioteca no nosso projeto, e faremos requisições dentro de nossos próprios componentes para consumir dados de uma API.

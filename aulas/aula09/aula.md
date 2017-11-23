@@ -24,4 +24,16 @@ Muita coisa mudou, mas continuamos fazendo requisições. Nas requisições, esp
 > "Existe uma ferramenta para cada tarefa, e uma tarefa para cada ferramenta."
 > – Tywin Lannister, A Storm of Swords
 
-Vamos usar o Axios como ferramenta, o axios é uma biblioteca que usaremos como um cliente HTTP, ele funciona no navegador ou no servidor. Em nosso caso, vamos instalar a biblioteca no nosso projeto, e faremos requisições dentro de nossos próprios componentes para consumir dados de uma API.
+Vamos usar o Axios como ferramenta, o axios é uma biblioteca que usaremos como um cliente HTTP, ele funciona no navegador ou no servidor. Em nosso caso, vamos instalar a biblioteca no nosso projeto.
+
+Lembre-se de usar --save para adicionar essa dependência no package.json 
+
+```bash
+npm install axios --save
+```
+
+Faremos requisições dentro de nossos próprios componentes para consumir dados de uma API. Há muitas APIs abertas por aí, então não se preocupe ainda se você não tem uma.
+
+Por fins didáticos, preferimos usar uma API falsa para explicar como o Axios funciona. Vamos consumir os dados que vem do [jsonplaceholder](https://jsonplaceholder.typicode.com/).
+
+

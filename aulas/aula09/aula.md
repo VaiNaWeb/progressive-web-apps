@@ -34,6 +34,60 @@ npm install axios --save
 
 Faremos requisições dentro de nossos próprios componentes para consumir dados de uma API. Há muitas APIs abertas por aí, então não se preocupe ainda se você não tem uma.
 
-Por fins didáticos, preferimos usar uma API falsa para explicar como o Axios funciona. Vamos consumir os dados que vem do [jsonplaceholder](https://jsonplaceholder.typicode.com/).
+Dentro da tag script, fora do export, vamos importar a biblioteca:
 
+```vue
+<script>
+import axios from 'axios';
 
+export default {
+  name: 'hello'
+}
+</script>
+```
+Depois, é só chamar a requisição, vamos fazer isso dentro de um created(), essa estrutura que estamos usando se chama [promise](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise). Uma promessa, que representa um valor que pode estar disponível.
+
+Por fins didáticos, por enquanto vamos usar uma API falsa para explicar como o Axios funciona. Vamos consumir os dados que vem do [jsonplaceholder](https://jsonplaceholder.typicode.com/).
+ 
+Nossa requisição retornará um [JSON](https://pt.wikipedia.org/wiki/JSON), essa é uma das melhores formas de trabalhar com dados na web, que vem de um endpoint do jsonplaceholder.
+
+Dentro de axios.get() vamos colocar o endpoint que queremos, um endpoint é uma URL onde seu serviço pode ser acessado por uma aplicação.
+
+Para guardar essese valores, vamos criar também um array vazio no data, depois disso, já estamos recebendo os dados e podemos usar facilmente no componente.
+
+```vue
+<script>
+import axios from 'axios';
+export default {
+  name: 'hello',
+  data () {
+    return {
+      respostas: [],
+    }
+  },
+  created() {
+    axios.get(`http://jsonplaceholder.typicode.com/users`)
+    .then(response => {
+      this.respostas = response.data
+    })
+  }
+}
+</script>
+```
+
+Vou assumir que você está usando a extensão do VUE no navegador, e sabe que é hora de ver como esses dados estão chegando no data e ver quais propriedades estão disponíveis. Se não sabia, pois saiba que é isso mesmo, use suas ferramentas ao seu favor.
+
+Duas propriedades que vieram em nosso JSON são o name e o email. Vamos criar um v-for e exibir essas informações!
+
+```vue
+<template>
+  <section>
+    <ul>
+      <li v-for="resposta in respostas">
+        <p><strong>{{resposta.name}}</strong></p>
+        <p>{{resposta.email}}</p>
+      </li>
+    </ul>
+  </section>
+</template>
+```

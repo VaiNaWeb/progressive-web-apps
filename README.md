@@ -70,7 +70,7 @@ Nesse módulo vamos criar **Aplicações Web Progressivas** com VueJS, aplicaç�
 
 ### Aula 09 - [Consumindo uma API](aulas/aula09/aula.md)
 
-**Objetivos:**<br>
+**Objetivos:** Entender sobre os protocólos HTTP, como fazer requisições, e consumir serviços.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/progressive-web-app/), [slides](http://slides.com/vainaweb/pwa-08), [resumo](aulas/aula08/resumo.md).<br>
 **Duração:** 3 horas.

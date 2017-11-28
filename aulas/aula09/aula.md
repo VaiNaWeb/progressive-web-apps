@@ -45,7 +45,9 @@ export default {
 }
 </script>
 ```
-Depois, é só chamar a requisição, vamos fazer isso dentro de um created(), essa estrutura que estamos usando se chama [promise](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise). Uma promessa, que representa um valor que pode estar disponível.
+Depois, é só chamar a requisição, vamos fazer isso dentro de um created() do Vue.
+
+Essa estrutura que estamos usando no axios se chama [promise](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise). Uma promessa, que representa um valor que pode estar disponível, ou não, conceitualmente se a promessa for cumprida usamos o then para retorna-la, se não, se a promessa foi rejeitada usamos o catch.
 
 Por fins didáticos, por enquanto vamos usar uma API falsa para explicar como o Axios funciona. Vamos consumir os dados que vem do [jsonplaceholder](https://jsonplaceholder.typicode.com/).
  
